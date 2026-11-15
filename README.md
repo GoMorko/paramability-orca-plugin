@@ -18,7 +18,14 @@ With Paramability in your slicer, you can:
   Change the sizes and print, with no CAD software open.
 - **Cut a large model into parts that fit your bed.** Select your printer size, and Paramability splits the
   model. Add connectors to join the parts after printing: dovetails, pegs, holes for rods or holes for magnets.
-- **Make parts fit together**, with press fits and the correct clearances for threads.
+- **Tune the small details that make a print work.**
+  - Add holes for screws and for heat-set (brass) inserts, and make these holes stronger. Paramability adds a
+    modifier around each hole, and the slicer prints the area around the hole solid.
+  - Adjust snap fits, press fits and joints with a clearance value. Print a small test one time for each printer,
+    and Paramability uses the clearance that your printer needs. You can also select Snug, Close or Loose.
+  - Put these values in the form, so that people can adjust them for their own printer.
+- **Add decals.** Put text or an SVG picture on a face of the model, raised or engraved. People who open your
+  adjustable model can select which decal shows, for example a name or a logo.
 - **Change a mesh into a STEP file** that you can edit in CAD software. This works best on mechanical parts,
   such as brackets and enclosures. Sculpts and organic shapes stay mostly as triangles.
 - **Pose figurines and miniatures** before you print them.
