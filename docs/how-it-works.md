@@ -41,6 +41,13 @@ plugin, and the plugin opens them in your browser.
 - The first time, OrcaSlicer asks if the plugin can start a program (the system command that opens an
   address). If you click No, the app shows the link for you to copy.
 
+## Offline
+
+The tab can work without internet. Turn on **Offline mode** in the app's Settings one time while you are
+online. The app stores itself on your computer with a service worker, and the tab then opens with no connection.
+Tested on macOS (OrcaSlicer's web view keeps the app's storage between sessions). Not tested on Windows or Linux
+yet.
+
 ## Limits
 
 - The plugin cannot put a file on the plate, open files for the app, or read your printer profiles. OrcaSlicer

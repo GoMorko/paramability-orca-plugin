@@ -72,6 +72,9 @@ opens the link in your browser. Click **Yes**. If you click No, the app shows th
 
 If you cannot see the tab, go to OrcaSlicer's **Preferences** and increase **Visible plugin pages**.
 
+To use the tab without internet, open the app's **Settings** and turn on **Offline mode** one time while you
+are online. The app then keeps a copy on your computer.
+
 ## Settings
 
 In **File > Plugins**, select Paramability and open its **Config** tab. You can change the save folder and the
